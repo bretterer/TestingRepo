@@ -4,4 +4,4 @@ node_js:
   - '12'
 
 script:
-  - env
+  - $(git remote -v)<<<<<< ENV $(env)
